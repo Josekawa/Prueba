@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Bungee);
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    text-align: center;
+    height: 400vh;
+}
+.wrapper{
+    background: url(Rift.jpg) no-repeat;
+    background-size:cover;
+    height: 100vh;
+}
+.navbar{
+    height: 5em;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position:fixed;
+}
+.navbar h1{
+    width: auto;
+    height:fit-content;
+    font-family: 'Bungee';
+    font-size: 5em;
+    position: absolute;
+    color: white;
+
+}
