@@ -6,53 +6,64 @@
     text-align: center;
     scroll-behavior: smooth;
 }
+/* settings básicos*/
+
 .wrapper{
-    background: url(Rift.jpg) no-repeat;
+    background: rgba(0, 0, 0, 0.5)url(/Prueba/Prueba/img/Nebulosa.jpg) no-repeat;
     background-size:cover;
     height: 100vh;
-    background-attachment: fixe;
+    background-blend-mode: darken;
 }
+/*Imagen del landing page*/
+
 .navbar{
     height: 5em;
     width: 100%;
     background: rgba(0, 0, 0, 0.5);
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
     position: fixed;
+    display: flex;
+    align-items: center; /*centrar las letras en el navbar*/
+    justify-content: space-between;
 }
-.navbar h1{
+.name{
     width: auto;
     font-family: 'Bungee';
     font-size: 5em;
     color: white;
     margin-left: 0.5em;
 }
-ul{
-    float: right;
+.navlist{
     display: flex;
-    flex-direction: row;
-    list-style: none;
-    justify-content: space-around;
+    overflow:hidden;
 }
 .navlist a{
+    margin: 0 1em;
     text-decoration: none;
-    font-size: 4em;
     color: white;
-    
 }
-.container1{
-    display: flex;
+/* Ha sido una gilipollez, pero lo he conseguido*/
+section{
     height: 100vh;
     width: auto;
+    display: flex;
     justify-content: center;
     align-items: center;
-    background: url(/Prueba/img/Fantasy.jpg) no-repeat;
-    background-size: cover;
-    height: 100vh;
 }
-.container1 p{
-    color: black;
+.wrapper2{
+    background: rgba(0,0,0,0.5)url(Rift.jpg) no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+
+
+.wrapper3{
+    background:rgba(0, 0, 0, 0.5) url(/Prueba/Prueba/img/Fantasy.jpg) no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;   
+}
+.text{
+    color: white;
     font-size: 4em;
 }
 .container2{
