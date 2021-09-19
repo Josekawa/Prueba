@@ -50,7 +50,7 @@ section{
     align-items: center;
 }
 .wrapper2{
-    background: rgba(0,0,0,0.5)url(Rift.jpg) no-repeat;
+    background: rgba(0,0,0,0.5)url(/Prueba/Prueba/img/Rift.jpg) no-repeat;
     background-size: cover;
     background-blend-mode: darken;
 }
