@@ -31,6 +31,7 @@
     font-size: 5em;
     color: white;
     margin-left: 0.5em;
+    text-decoration: none;
 }
 .navlist{
     display: flex;
@@ -65,14 +66,16 @@ section{
 .text{
     color: white;
     font-size: 4em;
+    z-index: 1;
 }
-.container2{
-    display: flex;
-    height: 100vh;
-    width: auto;
-    justify-content: center;
-    align-items: center;
-    background: url(/Prueba/img/Fantasy.jpg) no-repeat;
-    background-size: cover;
-    height: 100vh;
-}
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: 4em 4em;
+    position: absolute;
+   
+    }
+.g1{background-color: cornflowerblue;}
+.g2{ background-color: crimson;}
+.g3{background-color: crimson;}
+.g4{ background-color: cornflowerblue;}
