@@ -33,14 +33,23 @@
     margin-left: 0.5em;
     text-decoration: none;
 }
+.name:hover{
+    color: #73719a;
+}
 .navlist{
     display: flex;
     overflow:hidden;
 }
 .navlist a{
     margin: 0 1em;
+    padding: 0.4em 1em;
     text-decoration: none;
     color: white;
+}
+.navlist a:active,
+.navlist a:hover{
+    background-color: teal;
+    border-radius: 1em;
 }
 /* Ha sido una gilipollez, pero lo he conseguido*/
 section{
@@ -55,13 +64,15 @@ section{
     background-size: cover;
     background-blend-mode: darken;
 }
-
-
-
 .wrapper3{
     background:rgba(0, 0, 0, 0.5) url(/Prueba/Prueba/img/Fantasy.jpg) no-repeat;
     background-size: cover;
     background-blend-mode: darken;   
+}
+.wrapper4{
+    background:rgba(0, 0, 0, 0.5) url(/Prueba/Prueba/img/Rock.jpg) no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
 }
 .text{
     color: white;
